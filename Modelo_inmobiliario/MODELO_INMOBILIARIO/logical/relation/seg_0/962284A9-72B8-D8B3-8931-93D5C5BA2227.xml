@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CITA_PROFORMA" directorySegmentName="seg_0" id="962284A9-72B8-D8B3-8931-93D5C5BA2227">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 02:41:35 UTC</createdTime>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<sourcePk>41D0AA8F-DAC0-46C1-3918-0E4127554966</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2B83CAAF-2C6D-B26B-9C8C-EECFE96C2D29</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9A05E972-2518-B9BC-C097-714BC72EDAEE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

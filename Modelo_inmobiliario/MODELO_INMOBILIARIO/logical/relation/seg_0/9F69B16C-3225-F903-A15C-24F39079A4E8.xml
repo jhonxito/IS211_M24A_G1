@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PROFORMA_VENTA" directorySegmentName="seg_0" id="9F69B16C-3225-F903-A15C-24F39079A4E8">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 02:47:15 UTC</createdTime>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<sourcePk>A3E7B92D-DAFA-EFC1-47D6-16AB1C9CB113</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9A05E972-2518-B9BC-C097-714BC72EDAEE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>23F8F301-E3AF-5264-F6CC-974F75B23764</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

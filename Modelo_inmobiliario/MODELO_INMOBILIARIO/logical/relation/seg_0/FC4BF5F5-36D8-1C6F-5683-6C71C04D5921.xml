@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PROYECTO_PROYECTOIMG" directorySegmentName="seg_0" id="FC4BF5F5-36D8-1C6F-5683-6C71C04D5921">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 01:38:26 UTC</createdTime>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<sourcePk>4FF4AA1B-020D-6325-43F7-CB66A1A58D33</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>131EA337-779D-11EB-090B-0992D49C9183</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D17B6042-A02B-EB07-9AB8-556AB29E3399</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

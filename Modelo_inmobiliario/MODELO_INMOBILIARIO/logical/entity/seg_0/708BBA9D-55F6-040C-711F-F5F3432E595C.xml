@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="708BBA9D-55F6-040C-711F-F5F3432E595C" name="DepartamentoImagen">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 00:59:39 UTC</createdTime>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idDepartamentoImg" id="914A6ABA-3EBC-41FA-DAE5-6CE8793654FD">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 00:59:52 UTC</createdTime>
+<comment>Id de la imagen del departamento</comment>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idDepartamento" id="7F40E646-4272-C15C-717E-0838CC601CDD">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 01:02:13 UTC</createdTime>
+<comment>Id de la tabla Departamentos</comment>
+<generatorID>4C4EB5EC-8723-5AED-D3AB-66A2EB526D58</generatorID>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<referedAttribute>CC807BCE-9556-29D4-1BAD-356C725CC000</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descRutaImg" id="ABFE8D2C-78CE-BBEE-C329-479BE6AD4405">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 01:00:25 UTC</createdTime>
+<comment>Ruta de la Imagen del departamento</comment>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="flEsPrincipal" id="CE620FB3-322C-6012-FC8F-EA13950DB30A">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 01:01:20 UTC</createdTime>
+<comment>1: Es imagen principal, 0: no es imagen principal</comment>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D827E134-D67B-1D0A-D8FC-39D203A5F0F9" name="DepartamentoImagen PK">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 01:00:10 UTC</createdTime>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>914A6ABA-3EBC-41FA-DAE5-6CE8793654FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

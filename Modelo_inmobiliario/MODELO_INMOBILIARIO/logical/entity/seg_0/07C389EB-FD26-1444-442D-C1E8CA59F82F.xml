@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07C389EB-FD26-1444-442D-C1E8CA59F82F" name="Departamento">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 00:51:33 UTC</createdTime>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idDepartamento" id="CC807BCE-9556-29D4-1BAD-356C725CC000">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 00:51:42 UTC</createdTime>
+<comment>Id de la tabla Departamentos</comment>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProyecto" id="D3907A1E-2A07-6FEB-187B-9D984F7A1100">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 00:58:55 UTC</createdTime>
+<comment>Id de la tabla Proyectos</comment>
+<generatorID>2B584F78-C84F-806A-4CD5-E8A4C0A934A7</generatorID>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<referedAttribute>AB63B6DB-7AD8-554A-6335-6C4C472763C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="noDepartamento" id="994CAA51-B006-4E1D-0A3B-276CA8B42D45">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 00:52:19 UTC</createdTime>
+<comment>Número del departamento</comment>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="noPiso" id="3304C284-A436-07D5-6C61-C707C40CB26A">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 01:33:21 UTC</createdTime>
+<comment>N° de piso</comment>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtArea" id="AE06378E-35C6-AA92-BBC5-07E7C9B54FF6">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 00:53:48 UTC</createdTime>
+<comment>Área del departamento</comment>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,5,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtHabitaciones" id="7CB63FFB-4547-3A20-50D5-BA73713776A3">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 00:55:05 UTC</createdTime>
+<comment>N° de habitaciones</comment>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtBanhos" id="4BFDBBE9-4AE4-ED28-7E64-C1FF5C26D2E8">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 00:55:40 UTC</createdTime>
+<comment>N° de baños en el departamento</comment>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descDepartamento" id="9408CFBD-5B70-E0AC-090A-ABEBDCCC8AD2">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 00:57:30 UTC</createdTime>
+<comment>Descripción del departamento</comment>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="flSeparado" id="5256E695-824A-DD6A-5F22-E1051E1B5FC9">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 02:07:14 UTC</createdTime>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="flVendido" id="7C36D46A-90D8-0838-372C-623184B39958">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 02:06:55 UTC</createdTime>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D0FCA36-6601-624F-C246-2C44F2836815" name="Departamento PK">
+<createdBy>USER</createdBy>
+<createdTime>2020-08-17 00:51:57 UTC</createdTime>
+<ownerDesignName>MODELO_INMOBILIARIO</ownerDesignName>
+<engineerTo>
+<item key="17ABE1F2-8ECD-F923-EDE3-61DC8FD1FF8A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CC807BCE-9556-29D4-1BAD-356C725CC000</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
